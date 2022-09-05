@@ -1,0 +1,15 @@
+<header class="header">
+    <img class="header__logo" src="./images/logo.png">
+    <a class="header__link {{#if isTrainerPage}}active{{/if}} {{#if displayNone}}none{{/if}}" href="#/trainer">
+        Тренажёр
+    </a>
+    <a class="header__link {{#if isRecordsPage}}active{{/if}} {{#if displayNone}}none{{/if}}" href="#/records">
+        Рекорды
+    </a>
+    <div class="header__btn-container">
+        <a class="header__link {{#if onlineUser}}online{{/if}}" href="{{href}}">
+            {{#if page}}{{buttonText}}{{/if}}{{#ifCond onlineUser '&&'
+            isTrainerOrRecords}}{{userIsOnline.name}}{{/ifCond}}
+        </a>
+    </div>
+</header>

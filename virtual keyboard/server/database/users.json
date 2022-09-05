@@ -1,0 +1,58 @@
+[
+   {
+      "name": "Egor",
+      "password": "12345",
+      "id": "ZXvOsz8fj",
+      "recordLetters": "285",
+      "errors": "6",
+      "status": "online"
+   },
+   {
+      "name": "Petyaa",
+      "password": "12345",
+      "id": "x82YNaiV4",
+      "recordLetters": "188",
+      "errors": "10",
+      "status": "offline"
+   },
+   {
+      "name": "Vasya1987",
+      "password": "12345",
+      "id": "qAtFO5VRM",
+      "recordLetters": "65",
+      "errors": "3",
+      "status": "offline"
+   },
+   {
+      "name": "Sasha07",
+      "password": "12345",
+      "id": "M_dPu1ytu",
+      "recordLetters": "255",
+      "errors": "1",
+      "status": "offline"
+   },
+   {
+      "name": "Masha",
+      "password": "12345",
+      "id": "2AIoQO04T",
+      "recordLetters": "277",
+      "errors": "5",
+      "status": "offline"
+   },
+   {
+      "name": "MasterPechati",
+      "password": "12345",
+      "id": "SGJ43Nqu2",
+      "recordLetters": "0",
+      "errors": "0",
+      "status": "offline"
+   },
+   {
+      "name": "Макс",
+      "password": "фывфывфывфыв",
+      "id": "mWPOtUytO",
+      "recordLetters": "0",
+      "errors": "0",
+      "status": "offline"
+   }
+]

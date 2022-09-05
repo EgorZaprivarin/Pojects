@@ -1,0 +1,16 @@
+<div class="records">
+   <div class="records__bg"></div>
+   <div class="records__container">
+      <h1 class="records__title">Таблица рекордов</h1>
+      <hr>
+      <div class="records__sub-titles">
+         <p class="records__name">Псевдоним</p>
+         <p class="records__letters">Напечатано символов</p>
+         <p class="records__errors">Допущено ошибок</p>
+      </div>
+      <hr>
+      <ol class="records__users-list">
+         {{#each users}}{{> userItem user=this}}{{/each}}
+      </ol>
+   </div>
+</div>
