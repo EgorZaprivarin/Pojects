@@ -1,0 +1,13 @@
+.profile {
+   color: rgb(70 70 70);
+   font-size: 20px;
+
+   &__wrapper {
+      margin-left: 20px;;
+   }
+
+   &__img img {
+      width: 100%;
+      height: 250px;
+   }
+}

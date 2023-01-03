@@ -1,0 +1,13 @@
+.header {
+   grid-area: header;
+   background: #5c2d0036;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   margin-top: 10px;
+
+   img {
+      width: 100px;
+      margin-left: 5px;
+   }
+}

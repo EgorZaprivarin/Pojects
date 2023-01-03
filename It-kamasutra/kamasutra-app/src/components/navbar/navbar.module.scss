@@ -1,0 +1,38 @@
+.nav {
+   grid-area: nav;
+   background: #5c2d0036;
+
+   &__list {
+      padding: 15px;
+      font-size: 24px;
+   }
+
+   &__list li:not(:nth-child(5)) {
+      margin-bottom: 10px;
+   }
+
+   &__list li:last-child {
+      font-size: 34px;
+      margin-top: 80px;
+   }
+
+   &__list li:nth-child(5) {
+      margin-bottom: 40px;
+   }
+   
+   a {
+      color: #5c2d00;
+   }
+
+   a.active {
+      color: #ffe2b4;
+   }
+
+   .friends {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 20px;
+   }
+}

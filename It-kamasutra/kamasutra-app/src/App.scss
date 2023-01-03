@@ -1,0 +1,23 @@
+.app-wrapper {
+   background: #ff9c0036;
+   display: flex;
+   flex-direction: column;
+
+   .container {
+      display: grid;
+      grid-template-areas: 
+      'header header'
+      'nav content';
+      grid-template-columns: 200px 1fr;
+      grid-template-rows: 70px 1fr;
+      gap: 10px;
+      width: 1024px;
+      height: 100%;
+      margin: 0 auto;
+      flex: 1 1 100vh;
+   }
+
+   .app-content {
+      grid-area: content;
+   }
+}

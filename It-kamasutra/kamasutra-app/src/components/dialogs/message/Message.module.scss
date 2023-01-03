@@ -1,0 +1,52 @@
+.dialogs__message {
+   display: flex;
+   margin-bottom: 10px;
+   position: relative;
+   font-size: 18px;
+}
+
+.dialogs__text {
+   color: #5c2d00;
+   position: relative;
+}
+
+.dialogs__message:nth-child(odd) {
+   .dialogs__text {
+      margin-left: 10px;
+   }
+}
+
+.dialogs__message:nth-child(even) {
+   justify-content: flex-end;
+   .dialogs__text {
+      margin-right: 10px;
+   }
+}
+
+.dialogs__message:nth-child(odd):before {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 0;
+   width: 5px;
+   height: 5px;
+   background-color: #000;
+   border-radius: 50%;
+   transform: translateY(-50%);
+   color: #5c2d00;
+}
+
+.dialogs__message:nth-child(even):after {
+   content: '';
+   display: block;
+   position: absolute;
+   top: 50%;
+   right: 0;
+   width: 5px;
+   height: 5px;
+   background-color: #000;
+   border-radius: 50%;
+   transform: translateY(-50%);
+   color: #5c2d00;
+}
